@@ -105,7 +105,7 @@ class _HomePageState extends State<HomePage> {
                                         fontWeight: FontWeight.normal),
                                   ),
                                   Text(
-                                    "Living Room",
+                                    "Equipment room",
                                     style: TextStyle(
                                         height: 1.1,
                                         fontSize: 17,

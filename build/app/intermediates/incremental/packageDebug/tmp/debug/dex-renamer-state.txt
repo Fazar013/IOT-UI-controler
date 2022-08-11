@@ -1,0 +1,4 @@
+#Thu Aug 11 10:05:57 ICT 2022
+base.0=C\:\\Users\\PEGA-WIN10\\Documents\\GitHub\\IOT-UI-controler\\build\\app\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex
