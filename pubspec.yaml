@@ -19,6 +19,7 @@ dependencies:
   rainbow_color: ^2.0.1
   animated_background: ^2.0.0
   animations: ^2.0.3
+  
 
 dev_dependencies:
   flutter_lints: ^2.0.1

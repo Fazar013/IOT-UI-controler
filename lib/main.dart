@@ -17,7 +17,7 @@ class _MyAppState extends State<MyApp> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter IoT UI equt room',
+      title: 'Flutter IoT UI ',
       theme: ThemeData(
           fontFamily: "Poppins",
           sliderTheme: const SliderThemeData(

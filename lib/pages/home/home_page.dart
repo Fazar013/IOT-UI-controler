@@ -3,6 +3,7 @@ import 'package:iot_ui_challenge/model/device_model.dart';
 import 'package:iot_ui_challenge/pages/home/widgets/devices.dart';
 import 'package:iot_ui_challenge/utils/string_to_color.dart';
 
+
 class HomePage extends StatefulWidget {
   const HomePage({Key? key}) : super(key: key);
 
@@ -105,7 +106,7 @@ class _HomePageState extends State<HomePage> {
                                         fontWeight: FontWeight.normal),
                                   ),
                                   Text(
-                                    "Equipment room",
+                                    "equipment room",
                                     style: TextStyle(
                                         height: 1.1,
                                         fontSize: 17,
@@ -114,11 +115,7 @@ class _HomePageState extends State<HomePage> {
                                   ),
                                 ],
                               ),
-                              Icon(
-                                Icons.more_horiz,
-                                color: Color.fromARGB(255, 0, 0, 0),
-                                size: 30,
-                              )
+                             
                             ],
                           ),
                           const SizedBox(
