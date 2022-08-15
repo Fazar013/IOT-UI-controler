@@ -46,7 +46,7 @@ class PowerWidget extends StatelessWidget {
                         text: 'ON',
                         style: TextStyle(
                           color: isActive
-                              ? Colors.white
+                              ? Color.fromARGB(255, 255, 255, 255)
                               : Colors.black.withOpacity(0.3),
                         ),
                       ),

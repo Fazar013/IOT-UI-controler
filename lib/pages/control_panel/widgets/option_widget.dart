@@ -22,7 +22,7 @@ class OptionWidget extends StatelessWidget {
           borderRadius: const BorderRadius.all(
             Radius.circular(20.0),
           ),
-          color: isSelected ? Colors.white : Colors.black.withOpacity(0.1),
+          color: isSelected ? Color.fromARGB(255, 255, 255, 255) : Colors.black.withOpacity(0.1),
         ),
         child: Center(
           child: SvgPicture.asset(

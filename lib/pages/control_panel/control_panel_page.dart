@@ -56,7 +56,7 @@ class _ControlPanelPageState extends State<ControlPanelPage>
                   begin: Alignment.topCenter,
                   end: Alignment.bottomCenter,
                   colors: <Color>[
-                    Colors.white,
+                    Color.fromARGB(163, 236, 236, 236),
                     activeColor[progressVal].withOpacity(0.5),
                     activeColor[progressVal]
                   ]),
@@ -64,7 +64,7 @@ class _ControlPanelPageState extends State<ControlPanelPage>
             child: AnimatedBackground(
               behaviour: RandomParticleBehaviour(
                   options: ParticleOptions(
-                baseColor: const Color(0xFFFFFFFF),
+                baseColor: Color.fromARGB(117, 255, 255, 255),
                 opacityChangeRate: 0.25,
                 minOpacity: 0.1,
                 maxOpacity: 0.3,
@@ -171,7 +171,7 @@ class _ControlPanelPageState extends State<ControlPanelPage>
                       })),
             ),
             const SizedBox(
-              width: 15,
+              width: 2,
             ),
             Expanded(
               child: PowerWidget(
